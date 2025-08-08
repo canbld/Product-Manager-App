@@ -1,0 +1,50 @@
+.product-form {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: tomato;
+  border: 2px solid wheat;
+  border-radius: 1rem;
+  align-items: flex-end;
+  box-shadow: 0.1rem 0.4rem 0.5rem rgba(0, 0, 0, 0.7);
+}
+.product-form-input {
+  display: flex;
+  flex-direction: column;
+  min-width: 10rem;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: black;
+}
+.product-form-button,
+.product-form-back-button {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.product-form-button:hover,
+button:hover {
+  background-color: rgb(246, 140, 121);
+  transition: 0.5s ease-in-out;
+}
+
+.new-product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+input {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: wheat;
+}
+button,
+.product-form-button {
+  background-color: wheat;
+  font-weight: bold;
+}

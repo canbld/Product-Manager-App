@@ -1,0 +1,18 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  width: 100%;
+  grid-column: 1 / -1;
+  font-weight: bold;
+}
